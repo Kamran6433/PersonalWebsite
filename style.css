@@ -9,12 +9,12 @@ html
 }
 
 
-.logo 
+.navbar-element 
 {
     transition: 0.2s ease-in;
 }
 
-.logo:hover 
+.navbar-element:hover 
 {
     transform: scale(0.85);
     transition-duration: 0.2s;
