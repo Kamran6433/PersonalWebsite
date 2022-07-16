@@ -12,6 +12,8 @@ html
 .navbar-element 
 {
     transition: 0.2s ease-in;
+    text-decoration: none;
+    color: white;
 }
 
 .navbar-element:hover 
