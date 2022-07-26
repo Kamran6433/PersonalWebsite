@@ -8,6 +8,7 @@ html, body
 .page 
 {
     background: hsla(0, 0%, 14%);
+    position: relative;
 }
 
 .navbar 
@@ -27,6 +28,14 @@ html, body
 {
     transform: scale(0.9);
     transition-duration: 0.15s;
+}
+
+span
+{
+    font-size: 50px;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-color: grey;
+    -webkit-text-stroke-width: 3px;
 }
 
 @media (min-width: 1200px) 
