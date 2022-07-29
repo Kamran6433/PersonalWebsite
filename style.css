@@ -30,12 +30,13 @@ html, body
     transition-duration: 0.15s;
 }
 
-span
+.words
 {
     font-size: 50px;
     -webkit-text-fill-color: transparent;
     -webkit-text-stroke-color: grey;
     -webkit-text-stroke-width: 3px;
+    margin: 1rem;
 }
 
 @media (min-width: 1200px) 
