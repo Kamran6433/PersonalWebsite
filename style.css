@@ -5,10 +5,24 @@ html, body
     background: hsla(0, 0%, 14%);
 }
 
+.background
+{
+    background: hsla(0, 0%, 14%);
+}
+
+.background-words
+{
+    z-index: 0;
+    position: fixed;
+}
+
 .page 
 {
     background: hsla(0, 0%, 14%);
     position: relative;
+    left: 50%;
+    transform: translate(-50%, 0%);
+    margin: 0;
 }
 
 .navbar 
